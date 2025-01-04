@@ -2,7 +2,7 @@
 using namespace std;
 
 void print1(int n){         // nxn star pattern
-        for(int i = 0; i<n; i++){  
+        for(int i = 0; i<n; i++){
             for(int j = 0; j<n; j++){
                 cout << "* ";
                 }
@@ -10,7 +10,7 @@ void print1(int n){         // nxn star pattern
             }
 }
 void print2(int n){         // * Right Triangle Pattern
-    for(int i = 0; i<n; i++){  
+    for(int i = 0; i<n; i++){
         for(int j = 0; j<=i; j++){
             cout << "* ";
             }
@@ -18,15 +18,15 @@ void print2(int n){         // * Right Triangle Pattern
         }
 }
 void print3(int n){         // nTriangle Numerical right angle pyramid
-    for(int i = 0; i<=n; i++){  
+    for(int i = 0; i<=n; i++){
         for(int j = 1; j<=i; j++){
             cout << j <<" ";
             }
         cout << endl;
         }
 }
-void print4(int n){         // Numeical Pyramid with same no.s in a linex   
-    for(int i = 0; i<=n; i++){  
+void print4(int n){         // Numeical Pyramid with same no.s in a linex
+    for(int i = 0; i<=n; i++){
         for(int j = 1; j<=i; j++){
             cout << i << " ";
             }
@@ -311,33 +311,33 @@ void print23(int n){
             cout<<j;
         }
         cout<<endl;
-    } 
+    }
 }
 int main(){
     int n;
-    cin >> n; 
-    print1(n);    
-    print2(n);    
-    print3(n);    
-    print4(n);    
-    print5(n);    
-    print6(n);    
-    print7(n);    
-    print8(n);    
-    print9(n);    
-    print10(n);    
-    print11(n);    
-    print12(n);    
-    print13(n);    
-    print14(n);    
-    print15(n);    
-    print16(n);    
-    print17(n);    
-    print18(n);    
-    print19(n);    
-    print20(n);    
-    print21(n);    
-    print22(n);    
-    print23(n);    
+    cin >> n;
+    print1(n);
+    print2(n);
+    print3(n);
+    print4(n);
+    print5(n);
+    print6(n);
+    print7(n);
+    print8(n);
+    print9(n);
+    print10(n);
+    print11(n);
+    print12(n);
+    print13(n);
+    print14(n);
+    print15(n);
+    print16(n);
+    print17(n);
+    print18(n);
+    print19(n);
+    print20(n);
+    print21(n);
+    print22(n);
+    print23(n);
     return 0;
 }
